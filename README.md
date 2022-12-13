@@ -1,5 +1,4 @@
-# date-time-series-flutter-chart
-How to create time series chart using the Flutter charts widget?
+# How to create time series chart using the Flutter charts widget?
 
 Our Flutter Cartesian chart provides DateTimeAxis support to render the date-time values. By default interval type will be calculated based on the data. If you wish to calculate the interval on specific type say for example month, hours, seconds, etc, then intervalType property can be used and if you wish to show the date time values in a specific format means, you can use the dateFormat property.
 
