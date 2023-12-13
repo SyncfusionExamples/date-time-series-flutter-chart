@@ -54,7 +54,7 @@ class _MyHomePageState extends State<_MyHomePage> {
                       majorGridLines: MajorGridLines(width: 0),
                       edgeLabelPlacement: EdgeLabelPlacement.shift,
                       intervalType: DateTimeIntervalType.hours),
-                  series: <ChartSeries<ChartSampleData, DateTime>>[
+                  series: <LineSeries<ChartSampleData, DateTime>>[
                     LineSeries<ChartSampleData, DateTime>(
                       dataSource: chartData,
                       xValueMapper: (ChartSampleData sales, _) => sales.x,
